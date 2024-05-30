@@ -2,12 +2,12 @@ import React from 'react'
 import NavBar from './NavBar'
 import Carrito from './Carrito'
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header className='header'>
-            <h1>iStore</h1>
+            <h1 className='logo-title'>HypeHeaven</h1>
             <NavBar />
-            <Carrito />
+            <Carrito numerito={props.numerito} />
         </header>
     )
 }

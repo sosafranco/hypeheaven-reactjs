@@ -1,9 +1,10 @@
 import React from 'react'
+import { BagFill } from 'react-bootstrap-icons'
 
-const Carrito = () => {
+const Carrito = (props) => {
     return (
         <div className="cart">
-            <img src="./public/cart.png" alt="" />10
+            <BagFill color='black' size={20}></BagFill> {props.numerito}
         </div>
     )
 }

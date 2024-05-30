@@ -17,8 +17,13 @@ body {
     background-color: #f7f7f7;
 }
 
+
 .header {
     display: flex;
+    color: #2b2b2b;
+    font-size: .9rem;
+    font-family: "Poppins";
+    font-weight: 600;
     justify-content: space-between;
     align-items: center;
     background-color: #f8f8f8;
@@ -29,16 +34,75 @@ body {
 .nav-menu {
     display: flex;
     list-style-type: none;
-    gap: 2rem;
+    gap: 10rem;
 }
 
 .nav-link {
     text-decoration: none;
-    color: #000
+    color: #2b2b2b
+}
+
+.main-title {
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    color: #2b2b2b;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .list-container {
     display: grid;
     place-items: center;
     min-height: 50vh;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.producto-imagen {
+    max-width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-detalles {
+    color: #2b2b2b;
+    background-color: #eaeeef;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.producto-titulo {
+    font-size: 1rem;
+}
+
+.producto-ver-mas {
+    color: #f8f4f4;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #2b2b2b;
+}
+
+main {
+    padding: 3rem;
 }
