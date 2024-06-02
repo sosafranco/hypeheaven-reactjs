@@ -9,7 +9,7 @@ const ItemList = ({ products }) => {
                     products.map((products) => {
                         return <Item products={products} />
                     })
-                    : "No hay productos"
+                    : <p>"Loading products..."</p>
             }
         </div>
     )

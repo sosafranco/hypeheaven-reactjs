@@ -17,6 +17,10 @@ body {
     background-color: #f7f7f7;
 }
 
+a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
 
 .header {
     display: flex;
@@ -101,8 +105,20 @@ body {
     border: 0;
     border-radius: 0.5rem;
     background-color: #2b2b2b;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: .8rem;
 }
 
 main {
     padding: 3rem;
+}
+
+.footer {
+
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #2b2b2b;
+    color: #f4f8f8;
 }
