@@ -16,9 +16,9 @@ const ItemDetailContainer = () => {
         <div>
             {product ? (
                 <ItemDetail
-                    imagen={product.imagen}
                     titulo={product.titulo}
                     precio={product.precio}
+                    imagen={product.imagen}
                 />
             ) : (
                 "Cargando información del producto..."
