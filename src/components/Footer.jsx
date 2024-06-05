@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
     return (
-        <div>
-            <p className='footer'>Follow us on Instagram @hypeheaven</p>
+        <div className="footer">
+            <p>©2024 HypeHeaven all rights reserved </p>
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

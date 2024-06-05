@@ -21,7 +21,7 @@ const ItemDetailContainer = () => {
                     imagen={product.imagen}
                 />
             ) : (
-                "Cargando información del producto..."
+                'Cargando información del producto...'
             )}
         </div>
     );
