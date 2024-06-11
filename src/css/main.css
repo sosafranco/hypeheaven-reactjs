@@ -175,3 +175,10 @@ main {
     font-style: italic;
     font-family: 'Poppins', sans-serif;
 }
+
+.need-help {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #2b2b2b;
+    font-size: .8rem;
+}

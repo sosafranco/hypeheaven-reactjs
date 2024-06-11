@@ -7,7 +7,7 @@
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "140"
+        "precio": "139.99"
     },
     {
         "id": "jacket-02",
@@ -17,7 +17,7 @@
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "150"
+        "precio": "149.99"
     },
     {
         "id": "jacket-03",
@@ -27,7 +27,7 @@
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "160"
+        "precio": "159.99"
     },
     {
         "id": "jacket-04",
@@ -37,7 +37,7 @@
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "90"
+        "precio": "89.99"
     },
     {
         "id": "tee-01",
@@ -47,7 +47,7 @@
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "40"
+        "precio": "39.99"
     },
     {
         "id": "Tee-02",
@@ -57,7 +57,7 @@
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "30"
+        "precio": "29.99"
     },
     {
         "id": "Tee-03",
@@ -67,7 +67,7 @@
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "30"
+        "precio": "29.99"
     },
     {
         "id": "Tee-04",
@@ -77,7 +77,7 @@
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "35"
+        "precio": "34.99"
     },
     {
         "id": "Sneaker-01",
@@ -87,7 +87,7 @@
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "100"
+        "precio": "99.99"
     },
     {
         "id": "Sneaker-02",
@@ -97,7 +97,7 @@
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "100"
+        "precio": "99.99"
     },
     {
         "id": "Sneaker-03",
@@ -107,7 +107,7 @@
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "120"
+        "precio": "119.99"
     },
     {
         "id": "Sneaker-04",
@@ -117,6 +117,6 @@
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "70"
+        "precio": "69.99"
     }
 ]

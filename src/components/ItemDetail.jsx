@@ -7,6 +7,9 @@ const ItemDetail = ({ titulo, precio, imagen }) => {
             <div className='item-info'>
                 <p className='item-title'>{titulo}</p>
                 <p className='item-price'>Starting at ${precio}</p>
+                <p className='item-price'>
+                    Pay with Apple Wallet and get a discount!
+                </p>
             </div>
         </div>
     );

@@ -37,6 +37,7 @@ const ItemListContainer = () => {
     return (
         <div className='list-container'>
             <main>
+                <p className='need-help'>Need help? contact us on Instagram @hypeheaven</p>
                 <h1 className='main-title'>{titulo}</h1>
                 <ItemList products={products} />
             </main>

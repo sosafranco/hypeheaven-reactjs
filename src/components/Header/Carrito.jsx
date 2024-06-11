@@ -4,7 +4,7 @@ import { BagFill } from 'react-bootstrap-icons';
 const Carrito = (props) => {
     return (
         <div className='cart'>
-            <BagFill color='black' size={20}></BagFill> {props.numerito}
+            <BagFill color='black' size={22}></BagFill> {props.numerito}
         </div>
     );
 };
