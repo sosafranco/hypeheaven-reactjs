@@ -6,11 +6,28 @@
     font-style: normal;
 }
 
-* {
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
+/*CSS Reset*/
+
+* {margin: 0; padding: 0;}
+*, *::before, *::after {box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+body {min-height: 100dvh;}
+input, button, textarea, select {font: inherit;}
+
+p {text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6 {text-wrap: balance;}
+
+img, video, svg {height: auto; max-width: 100%;}
+
+@media (prefers-reduce-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: auto !important;
+        scroll-behavior: auto !important;
+        transition: none;
+    }
 }
 
 body {
@@ -181,4 +198,14 @@ main {
     font-family: 'Poppins', sans-serif;
     color: #2b2b2b;
     font-size: .8rem;
+}
+
+.add-product {
+    color: #f8f4f4;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0.3rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #2b2b2b;
 }

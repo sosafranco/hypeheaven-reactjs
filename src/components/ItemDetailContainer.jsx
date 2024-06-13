@@ -13,17 +13,7 @@ const ItemDetailContainer = () => {
     }, [itemId]);
 
     return (
-        <div>
-            {product ? (
-                <ItemDetail
-                    titulo={product.titulo}
-                    precio={product.precio}
-                    imagen={product.imagen}
-                />
-            ) : (
-                'Cargando información del producto...'
-            )}
-        </div>
+        <div>{product ? (<ItemDetail product={product} />) : ('Cargando información del producto...')}</div>
     );
 };
 
