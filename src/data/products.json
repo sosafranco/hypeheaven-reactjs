@@ -2,121 +2,121 @@
     {
         "id": "jacket-01",
         "titulo": "SST Bomber Jacket",
-        "imagen": "/src/assets/img/Campera 01.jpg",
+        "imagen": "/img/Campera 01.jpg",
         "categoria": {
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "139.99"
+        "precio": 139.99
     },
     {
         "id": "jacket-02",
         "titulo": "Baseball Coaches Jacket",
-        "imagen": "/src/assets/img/Campera 02.jpg",
+        "imagen": "/img/Campera 02.jpg",
         "categoria": {
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "149.99"
+        "precio": 149.99
     },
     {
         "id": "jacket-03",
         "titulo": "VRCT Jacket",
-        "imagen": "/src/assets/img/Campera 03.jpg",
+        "imagen": "/img/Campera 03.jpg",
         "categoria": {
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "159.99"
+        "precio": 159.99
     },
     {
         "id": "jacket-04",
         "titulo": "Adidas NY Windbreaker",
-        "imagen": "/src/assets/img/Campera 04.jpg",
+        "imagen": "/img/Campera 04.jpg",
         "categoria": {
             "nombre": "Jackets",
             "id": "jackets"
         },
-        "precio": "89.99"
+        "precio": 89.99
     },
     {
         "id": "tee-01",
         "titulo": "Adidas Basketball Tee",
-        "imagen": "/src/assets/img/Tee 01.jpg",
+        "imagen": "/img/Tee 01.jpg",
         "categoria": {
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "39.99"
+        "precio": 39.99
     },
     {
         "id": "Tee-02",
         "titulo": "Adicolor Trefoil Tee",
-        "imagen": "/src/assets/img/Tee 02.jpg",
+        "imagen": "/img/Tee 02.jpg",
         "categoria": {
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "29.99"
+        "precio": 29.99
     },
     {
         "id": "Tee-03",
         "titulo": "Trefoil Essentials Tee",
-        "imagen": "/src/assets/img/Tee 03.jpg",
+        "imagen": "/img/Tee 03.jpg",
         "categoria": {
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "29.99"
+        "precio": 29.99
     },
     {
         "id": "Tee-04",
         "titulo": "El Mejor Del Mundo Messi",
-        "imagen": "/src/assets/img/Tee 04.jpg",
+        "imagen": "/img/Tee 04.jpg",
         "categoria": {
             "nombre": "Tee's",
             "id": "tee"
         },
-        "precio": "34.99"
+        "precio": 34.99
     },
     {
         "id": "Sneaker-01",
         "titulo": "Superstar Shoes",
-        "imagen": "/src/assets/img/Sneaker 01.jpg",
+        "imagen": "/img/Sneaker 01.jpg",
         "categoria": {
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "99.99"
+        "precio": 99.99
     },
     {
         "id": "Sneaker-02",
         "titulo": "Forum Low Shoes",
-        "imagen": "/src/assets/img/Sneaker 02.jpg",
+        "imagen": "/img/Sneaker 02.jpg",
         "categoria": {
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "99.99"
+        "precio": 99.99
     },
     {
         "id": "Sneaker-03",
         "titulo": "Rivalry 86 Low Shoes",
-        "imagen": "/src/assets/img/Sneaker 03.jpg",
+        "imagen": "/img/Sneaker 03.jpg",
         "categoria": {
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "119.99"
+        "precio": 119.99
     },
     {
         "id": "Sneaker-04",
         "titulo": "Grand Court 2.0 Shoes",
-        "imagen": "/src/assets/img/Sneaker 04.jpg",
+        "imagen": "/img/Sneaker 04.jpg",
         "categoria": {
             "nombre": "Sneakers",
             "id": "sneakers"
         },
-        "precio": "69.99"
+        "precio": 69.99
     }
 ]

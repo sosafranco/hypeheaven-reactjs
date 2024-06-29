@@ -6,22 +6,52 @@
     font-style: normal;
 }
 
-
 /*CSS Reset*/
 
-* {margin: 0; padding: 0;}
-*, *::before, *::after {box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-body {min-height: 100dvh;}
-input, button, textarea, select {font: inherit;}
+body {
+    min-height: 100dvh;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
 
-p {text-wrap: pretty;}
-h1, h2, h3, h4, h5, h6 {text-wrap: balance;}
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
 
-img, video, svg {height: auto; max-width: 100%;}
+img,
+video,
+svg {
+    height: auto;
+    max-width: 100%;
+}
 
 @media (prefers-reduce-motion: reduce) {
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: auto !important;
@@ -197,7 +227,7 @@ main {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #2b2b2b;
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 
 .add-product {
@@ -208,4 +238,19 @@ main {
     border: 0;
     border-radius: 0.5rem;
     background-color: #2b2b2b;
+}
+
+.producto-agregado {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.vaciar-carrito {
+    display: flex;
+    margin: 1rem;
+}
+
+.carrito-total {
+    display: flex;
+    padding: 1rem;
 }

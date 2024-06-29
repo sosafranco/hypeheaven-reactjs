@@ -7,14 +7,18 @@ const Carrito = () => {
     return (
         <div>
             {carrito.map((product) => (
-                <h1>
-                    {product.titulo}: ${product.precio}
-                </h1>
+                <>
+                    <div>
+                        <h1 className='producto-agregado'>
+                            {product.titulo}: ${product.precio}
+                        </h1>
+                    </div>
+                </>
             ))}
             {carrito.length > 0 ? (
                 <>
-                    <h2>Total: ${calcularTotal()}</h2>
-                    <button onClick={vaciarCarrito}>Vaciar carrito</button>
+                    <h2 className='carrito-total'>Total: ${calcularTotal()}</h2>
+                    <button className='vaciar-carrito' onClick={vaciarCarrito}>Vaciar carrito</button>
                 </>
             ) : (
                 <h2 className='main-title'>Your cart it's empty!</h2>
