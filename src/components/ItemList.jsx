@@ -9,7 +9,7 @@ const ItemList = ({ products }) => {
                     products.map((products) => {
                         return <Item products={products} />
                     })
-                    : <p>"Loading products..."</p>
+                    : <h1 className='main-title'>Loading products...</h1>
             }
         </div>
     )

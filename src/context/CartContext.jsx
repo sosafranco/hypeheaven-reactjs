@@ -13,14 +13,14 @@ export const CartProvider = ({ children }) => {
         return carrito.length;
     };
 
-    // const calcularTotal = () => {
-    //     return carrito.reduce((acc, product) => acc + product.precio, 0);
-    // };
-
     const calcularTotal = () => {
-        const total = carrito.reduce((acc, product) => acc + product.precio, 0);
-        return total.toFixed(2);
+        return carrito.reduce((acc, product) => acc + product.precio, 0);
     };
+
+    // const calcularTotal = () => {
+    //     const total = carrito.reduce((acc, product) => acc + product.precio, 0);
+    //     return total.toFixed(2);
+    // };
 
     const vaciarCarrito = () => {
         setCarrito([]);

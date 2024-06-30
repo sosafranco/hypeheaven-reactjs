@@ -1,19 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../data/products.json';
 import ItemDetail from './ItemDetail';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '../firebase/config';
 
 const ItemDetailContainer = () => {
     let { itemId } = useParams();
     let [product, setProduct] = useState(null);
 
     useEffect(() => {
-        const buscarProducto = data.find((prod) => prod.id === itemId);
-        setProduct(buscarProducto);
+
+        const docRef = doc(db, "productos", itemId);
+        getDoc(docRef)
+            .then(res => {
+                setProduct({...res.data(), id: res.id});
+            });
+
     }, [itemId]);
 
     return (
-        <div>{product ? (<ItemDetail product={product} />) : ('Cargando información del producto...')}</div>
+        <div>{product ? (<ItemDetail product={product} />) : (<h1 className='main-title'>Cargando información del producto...</h1>)}</div>
     );
 };
 
