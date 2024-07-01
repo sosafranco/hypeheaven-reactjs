@@ -6,15 +6,25 @@ import { db } from '../../firebase/config';
 const NavBar = () => {
     let [categories, setCategories] = useState([]);
 
-    useEffect(()=> {
+    // useEffect(()=> {
+    //     const categoriasRef = collection(db, "categorias");
+    //     getDocs(categoriasRef)
+    //         .then((res) => {
+    //             setCategories(res.docs.map((doc) => {
+    //                 return {...doc.data()}
+    //             }));
+    //         })
+    // })
+
+    useEffect(() => {
         const categoriasRef = collection(db, "categorias");
         getDocs(categoriasRef)
             .then((res) => {
                 setCategories(res.docs.map((doc) => {
-                    return {...doc.data()}
+                    return { ...doc.data() }
                 }));
             })
-    })
+    }, [])
 
 
     return (

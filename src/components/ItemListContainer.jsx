@@ -20,13 +20,22 @@ const ItemListContainer = () => {
         let catQuery =
             categoryId && query(categoriasRef, where('id', '==', categoryId));
 
-        getDocs(q).then((res) => {
-            setProducts(
-                res.docs.map((doc) => {
-                    return { ...doc.data(), id: doc.id };
-                })
-            );
-        });
+        // getDocs(q).then((res) => {
+        //     setProducts(
+        //         res.docs.map((doc) => {
+        //             return { ...doc.data(), id: doc.id };
+        //         })
+        //     );
+        // });
+
+        getDocs(q)
+            .then((res) => {
+                setProducts(
+                    res.docs.map((doc) => {
+                        return { ...doc.data(), id: doc.id }
+                    })
+                )
+            })
 
         if (catQuery) {
             getDocs(catQuery).then((res) => {
