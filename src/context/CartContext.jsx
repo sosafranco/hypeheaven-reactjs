@@ -14,7 +14,9 @@ export const CartProvider = ({ children }) => {
     };
 
     const calcularTotal = () => {
-        return carrito.reduce((acc, product) => acc + product.precio, 0).toFixed(2);
+        return carrito
+            .reduce((acc, product) => acc + product.precio, 0)
+            .toFixed(2);
     };
 
     const vaciarCarrito = () => {
@@ -22,12 +24,13 @@ export const CartProvider = ({ children }) => {
     };
 
     const eliminarProducto = (product) => {
-        const productoEncontrado = carrito.find(prod => prod.id === product.id);
+        const productoEncontrado = carrito.find(
+            (prod) => prod.id === product.id
+        );
         const indice = carrito.indexOf(productoEncontrado);
         const nuevoCarrito = [...carrito];
         nuevoCarrito.splice(indice, 1);
         setCarrito(nuevoCarrito);
-
     };
 
     return (

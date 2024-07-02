@@ -9,17 +9,20 @@ const ItemDetailContainer = () => {
     let [product, setProduct] = useState(null);
 
     useEffect(() => {
-
-        const docRef = doc(db, "productos", itemId);
-        getDoc(docRef)
-            .then(res => {
-                setProduct({...res.data(), id: res.id});
-            });
-
+        const docRef = doc(db, 'productos', itemId);
+        getDoc(docRef).then((res) => {
+            setProduct({ ...res.data(), id: res.id });
+        });
     }, [itemId]);
 
     return (
-        <div>{product ? (<ItemDetail product={product} />) : (<h1 className='main-title'>Cargando información del producto...</h1>)}</div>
+        <div>
+            {product ? (
+                <ItemDetail product={product} />
+            ) : (
+                <h1 className='main-title'>Loading product detail...</h1>
+            )}
+        </div>
     );
 };
 
