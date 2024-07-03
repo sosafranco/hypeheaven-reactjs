@@ -30,7 +30,7 @@ const Carrito = () => {
                     <button className='vaciar-carrito' onClick={vaciarCarrito}>
                         Vaciar carrito
                     </button>
-                    <Link to='/finalizar-compra'>Finalizar compra</Link>
+                    <Link className='finalzar-compra' to='/finalizar-compra'>Finalizar compra</Link>
                 </>
             ) : (
                 <h2 className='main-title'>Your cart it's empty!</h2>
